@@ -1,0 +1,248 @@
+/* Header */
+
+body {
+	background-color: #F0DFBB
+}
+.section{
+	display:flexbox;
+}
+
+#logo {
+	display:flexbox;
+	width: 50%;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	width: 95%;
+	background-color: #197eab;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 8px;
+	
+}
+
+.navbarTab {
+	display:flex;	
+	padding: 10px;
+	font-family:'Segoe UI', Tahoma;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.navbarTab:hover {
+	background-color:#114875;
+	border-radius: 8px;
+	
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/* Homepage */
+
+.parkInfoView {
+	display: flexbox;
+	width: 95%;
+	background-color: white;
+	border-radius: 10px;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.individualPark {
+	display:flex;
+	flex-direction:row;
+}
+
+.parkViewImage {
+	padding: 10px;
+}
+
+img {
+	border-radius: 7px;
+}
+
+a .parkImage:hover
+a .parkImage:focus{
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+
+.parkViewName {
+	display: flexbox;
+	padding: 10px;
+	font-family:'Segoe UI', Tahoma;
+}
+
+.parkViewDescription{
+	padding:10px;
+	font-family:'Segoe UI', Tahoma;
+}
+
+/* Detail Page */
+
+.parkDetailImage {
+	display:flex-box;
+	width: 95%;
+	margin-left:auto;
+	justify-content: center;
+}
+
+#bigParkImage {
+	width: 95%;
+	margin-left:auto;
+	margin-top: 20px;
+	justify-content:center;
+}
+
+.parkInfo {
+	display:flex;
+	flex-direction: column;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left: 50px;
+	padding-right: 50px;
+	justify-content: center;
+	align-items: center;
+	font-size: 150%
+}
+
+#parkDetail {
+	font-family:'Segoe UI', Tahoma;
+	padding-bottom: 10px;
+}
+
+.manyInfo {
+	display: flex;
+	flex-direction: row;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 90%;
+}
+
+.firstFive {
+	padding-right: 120px
+}
+
+.quote {
+	display: flex-box;
+	font-family:'Segoe UI', Tahoma;
+	text-align: center;
+	font-style: italic;
+	background-color: #197eab;
+	color: white;
+	padding: 5px;
+	border-radius: 8px;
+	width: 60%;
+	font-size: 90%;
+}
+
+.allWeather{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+}
+
+.today{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	border-right: 1px black solid;
+	margin-top: 10px;
+}
+
+.weatherImgBig{
+	width: 100%;
+	text-align: center;
+}
+
+#weatherFont1 {
+	font-size: 120%;
+}
+
+.forecast{
+	width: 95%;
+	text-align: center;
+}
+
+#weatherFont{
+	font-size: 105%;
+	width: 100%;
+}
+
+.otherDays{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 100%;
+	max-width: 200px;
+	padding-top: 50px;
+}
+
+.otherDays > .hoverForecast{
+	visibility:hidden;;
+}
+
+.otherDays:hover > .hoverForecast{
+	visibility:visible;
+}
+
+.weatherImg > img{
+	width: 99%;
+}
+
+.degree{
+	color: black;
+}
+
+/* Survey */
+
+.labelFont {
+	font-family:'Segoe UI', Tahoma;	
+}
+
+.survey {
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+	justify-content: center;
+	align-items:center;
+	width: 90%;
+	height: 90%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#vote {
+	font-style: italic;
+}
+
+/* Favorites */
+
+.favoritesView {
+	display: flex-box;
+	width: 95%;
+}
+
+.individualFavoriteView {
+	display: flex;
+	flex-direction: row;
+	padding-top: 10px;
+}
+
+#description {
+	font-style: italic;
+}
+
+#favorites {
+	font-family:'Segoe UI', Tahoma;	
+	margin-left: 20px;
+}
